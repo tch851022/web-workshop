@@ -1,0 +1,141 @@
+body{
+/*background: rgba(0, 0, 0, 0);*/
+background-image: url(./res/bg2.png);
+background-repeat: no-repeat;
+background-size: 100% auto;
+margin: 0;
+font-family: verdana;
+font-size: 14px;
+letter-spacing: 3px;
+}
+
+#home{
+    top: 20px;
+    left: 60px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: left;
+}
+
+#introction{
+    top: 20px;
+    left: 120px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: left;
+}
+#specialty{
+    top: 20px;
+    left: 180px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: left;
+}
+#contactus{
+    top: 20px;
+    right: 60px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: right;
+}
+
+#item{
+    top: 20px;
+    right: 100px;
+    height: 40px;
+    width: 100px;
+    padding: 30px;
+    float: right;
+}
+#requrements{
+    top: 20px;
+    right: 180px;
+    height: 40px;
+    width: 120px; 
+    padding: 30px;
+    float: right;
+}
+.TopButton a{
+color: black;
+text-decoration:none;
+}
+
+.TopButton a:hover{
+    color: white;
+}
+
+#center{
+    width: 30%;
+    display:block; 
+    margin:auto;
+    background-repeat: no-repeat;
+}
+
+.city{
+position: absolute;
+top: 30%;
+}
+
+.cityheader{
+float: left;
+width: 220px; 
+top: 20px;
+left: 160px;
+}
+
+.cityform{
+float: right;
+top: 20px;
+right: 60px;
+background-image:  url(./res/PAGE2-04.png);
+}
+
+.mealform{
+    position: absolute;
+    top: 50%;
+}
+
+.mfheader{
+    float: left;
+    width: 220px; 
+    top: 20px;
+    left: 160px;
+    }
+
+.mfform{
+    float: right;
+    top: 20px;
+    right: 60px;
+    background-image:  url(./res/PAGE2-04.png);
+}
+
+.foodtype{
+    position: absolute;
+    top: 70%;
+}
+
+.ftheader{
+    float: left;
+    width: 220px; 
+    top: 20px;
+    left: 160px;
+    }
+.ftform{
+    float: right;
+    top: 20px;
+    right: 60px;
+    background-image:  url(./res/PAGE2-04.png);
+}
+
+.next{
+    position: absolute;
+    top: 90%;
+    left: 46%;
+    display:block; 
+    margin:auto;
+    background-repeat: no-repeat;
+}

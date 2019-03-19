@@ -1,0 +1,135 @@
+body{
+/*background: rgba(0, 0, 0, 0);*/
+background-image: url(./res/PAGE4-02.png);
+background-repeat: no-repeat;
+background-size: 100% auto;
+margin: 0;
+font-family: verdana;
+font-size: 14px;
+letter-spacing: 3px;
+}
+
+#home{
+    top: 20px;
+    left: 60px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: left;
+}
+
+#introction{
+    top: 20px;
+    left: 120px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: left;
+}
+#specialty{
+    top: 20px;
+    left: 180px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: left;
+}
+#contactus{
+    top: 20px;
+    right: 60px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: right;
+}
+
+#item{
+    top: 20px;
+    right: 100px;
+    height: 40px;
+    width: 100px;
+    padding: 30px;
+    float: right;
+}
+#requrements{
+    top: 20px;
+    right: 180px;
+    height: 40px;
+    width: 120px; 
+    padding: 30px;
+    float: right;
+}
+.TopButton a{
+color: #0;
+text-decoration:none;
+}
+
+.TopButton a:hover{
+    color: #0;
+}
+
+.picture{
+    position: absolute;
+   top: 30%;
+   left: 10%;
+}
+
+#center{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    width: 30%;
+    display:block; 
+    margin:auto;
+    background-repeat: no-repeat;
+}
+
+.recommemdation{
+    position: absolute;
+    top: 200px;
+}
+
+.reheader{
+    float: left;
+    width: 220px; 
+    top: 20px;
+    left: 160px;
+}
+.re_icon{
+    float: right;
+    top: 20px;
+    right: 60px;
+    background-image:  url(./res/PAGE4-03.png);
+}
+.seat{
+    position: absolute;
+    top: 120px;
+}
+.seatheader{
+    float: left;
+    width: 220px; 
+    top: 60px;
+    left: 160px;
+}
+.seat_icon{
+    float: right;
+    top: 60px;
+    right: 60px;
+    background-image:  url(./res/PAGE2-04.png);
+}
+.time{
+    position: absolute;
+    top: 250px;
+}
+.timeheader{
+    float: left;
+    width: 220px; 
+    top: 60px;
+    left: 160px;
+}
+.time_icon{
+    float: right;
+    top: 60px;
+    right: 60px;
+    background-image:  url(./res/PAGE4-04.png);
+}

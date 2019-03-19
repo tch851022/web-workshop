@@ -1,0 +1,105 @@
+body{
+/*background: rgba(0, 0, 0, 0);*/
+background-image: url(./res/bg1.png);
+background-repeat: no-repeat;
+background-size: 100% auto;
+margin: 0;
+font-family: verdana;
+font-size: 14px;
+letter-spacing: 3px;
+}
+
+#home{
+    top: 20px;
+    left: 60px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: left;
+}
+
+#introction{
+    top: 20px;
+    left: 120px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: left;
+}
+#specialty{
+    top: 20px;
+    left: 180px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: left;
+}
+#contactus{
+    top: 20px;
+    right: 60px;
+    height: 40px;
+    width: 120px;
+    padding: 30px;
+    float: right;
+}
+
+#item{
+    top: 20px;
+    right: 100px;
+    height: 40px;
+    width: 100px;
+    padding: 30px;
+    float: right;
+}
+#requrements{
+    top: 20px;
+    right: 180px;
+    height: 40px;
+    width: 120px; 
+    padding: 30px;
+    float: right;
+}
+.TopButton a{
+color: black;
+text-decoration:none;
+}
+
+.TopButton a:hover{
+color: white;
+}
+
+.ball{
+    position: absolute;
+    top: 32%;
+    left: 38%;
+    display:block; 
+    margin:auto;
+    background-repeat: no-repeat;
+    z-index: 1;
+    
+}
+
+.taiwan{
+    position: absolute;
+    top: 59%;
+    left: 43%;
+    display:block; 
+    margin:auto;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.taiwan a:hover{
+    background-image: url(./res/page1-07.png);
+}
+
+.start{
+    position: absolute;
+    top: 90%;
+    left: 44%;
+    display:block; 
+    margin:auto;
+    background-repeat: no-repeat;
+}
+.start a:hover{
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>HTML HW2 PAGE1</title>
+    <link href="page1.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <!--topbutton-->
+  <ul class="TopButton">
+    <div id="home"><a href="https://luffy.ee.ncku.edu.tw/~Hsin_1022/01_css/hw2/index1.html">Home</a></div>
+    <div id="introction"><a href="">Introction</a></div>
+    <div id="specialty"><a href="">Specialty</a></div>
+    <div id="contactus"><a href="">Contact us</a></div>
+    <div id="item"><a href="">Item</a></div>
+    <div id="requrements"><a href="">Requrements</a></div>
+  </ul>
+
+  <div  id="myImage">
+      <div  class="taiwan">
+        <img src="./res/page1-06.png" width="25%">
+      </div>
+      </div>
+
+  <div class="start">
+    <a href="https://luffy.ee.ncku.edu.tw/~Hsin_1022/01_css/hw2/index2.html">
+      <img src="./res/page1-05.png" width="20%"></a>
+  </div>
+
+  <div class="ball">
+      <img src="./res/page1-notaiwan.png" width="40%">
+    </div>
+
+  <script>
+  var myImage = document.querySelector('img');
+
+  myImage.onmouseover = function() {
+    var mySrc = myImage.getAttribute('src');
+    if(mySrc == './res/page1-06.png') {
+      myImage.setAttribute ('src','./res/page1-07.png');
+    } else {
+      myImage.setAttribute ('src','./res/page1-06.png');
+    }
+}
+
+myImage.onmouseout = function() {
+    var mySrc = myImage.getAttribute('src');
+    if(mySrc == './res/page1-06.png') {
+      myImage.setAttribute ('src','./res/page1-07.png');
+    } else {
+      myImage.setAttribute ('src','./res/page1-06.png');
+    }
+}
+
+  </script>
+  </body>
+</html>
